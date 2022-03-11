@@ -1,0 +1,203 @@
+section.secBanner /* Banner Section*/
+{
+    width: auto;
+    vertical-align: middle;
+    border-top: 1px solid #ffffff;
+}
+
+.bannerTxt
+{
+    position: absolute;
+    bottom:240px;
+    color: white;
+    padding-left: 160px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float:left;
+    width: 480px;
+}
+
+div.bnrMainTxt
+{
+    font-size: 36px;
+    margin:2px 0px;
+    color:#ffae00;
+}
+
+p.bnrSmlTxt
+{
+    font-size: 17px;
+    margin: 10px 0px;
+    color: black;
+    position: static;
+}
+
+a.git /* Get in touch with us button style*/
+{
+    float:left;
+    background-color: #ffae00;
+    color:#ffffff;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 15px;
+    display:inline;
+    margin:20px -2px;
+    border: 1px solid#ffc74d;
+}
+
+
+a.git:hover
+{
+    
+    background-color: #cc8b00;
+    color:#ffc74d;
+    border: 1px solid#ffc74d;
+}
+
+.blogAuth
+{
+    display:flex;
+}
+
+.LatestBlog{
+    background-color: #fafafa;
+    padding-bottom: 30px;
+}
+.blogStart{
+    padding-top: 1%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.blogCap
+{   
+    font-size: 25px;
+    color: #ffae00;
+    margin-top:50px;
+    text-align: left;
+    margin-left: 0.7%;
+}
+
+.blogList{
+    display: inline-block;
+    margin: 0.7%;
+    width:18%;
+}
+
+.blogList b {
+    
+    margin: 1%;
+    padding: 10px 0px;
+    
+}
+
+.blogList h2
+{
+    color: #887345;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 15px;
+    margin: 12px 0px;
+}
+
+
+.blogList p
+{
+    font-size: 14px;
+    color:darkgray;
+    text-align: justify;
+    line-height:18px;
+}
+.blogImg
+{
+    width:100%;
+    height:250px;
+    border-radius: 13px;
+    margin-bottom: 5%;
+}
+.auth
+{
+    color : #303030;
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.sml
+{
+    color: #ffae00;
+    font-size: 14px;
+}
+
+.showAll{
+    width:80%;
+    padding: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mid_banner{
+
+    width : 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.abiWarpper{
+    background-color: #fafafa;
+    padding:30px 0px;
+}
+
+.advByInt{
+
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.abiImages{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:20px 0px;
+    gap :30px;
+
+}
+
+.abiImg
+{
+    width:100%;
+    height:250px;
+    border-radius: 13px;
+}
+
+.abiCap
+{   
+    font-size: 25px;
+    color: #ffae00;
+    margin-top:25px;
+    text-align: left;
+    margin-left: 0.7%;
+    margin-bottom: 4%;
+}
+
+
+.abiCont{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;    
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 30px; 
+  }

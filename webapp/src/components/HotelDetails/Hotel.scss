@@ -1,0 +1,101 @@
+.hotelName {
+  margin: 20px;
+  font-weight: 800;
+  font-size: 30px;
+  // font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important
+}
+
+.mainarea {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.hotelGallery {
+  display: flex;
+}
+
+.container {
+  width: 370px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  //box-shadow: 0 0 10px rgb(145, 143, 143);
+  position: sticky;
+  left: 1200px;
+  background-color: rgb(233, 230, 230);
+}
+
+.hotelPrice {
+  font-weight: bold;
+}
+.hotelPricediv {
+  font-size: 25px;
+}
+
+.hotelinput {
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px;
+  //background-color: grey;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 0 10px rgb(145, 143, 143);
+}
+.hotelinput:focus {
+  outline: none;
+}
+
+.descriptionstyle {
+  color: rgb(105, 104, 104);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.hotelLabel {
+  margin: 5px;
+  padding: 2px;
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+.ratingLabel {
+  color: grey;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.ratingLabel2 {
+  color: grey;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.carousel-wrapper {
+  margin: 15px 0px;
+  img {
+    height: 55vh;
+  }
+}
+
+.ul1{
+  color:grey;
+  list-style-type: none;
+  li{
+    width:33%;
+    float:left;
+    padding: 10px;
+  }
+}
+
+.amenitiesClass{
+  color:grey;
+  padding-bottom:30px;
+  font-weight: bold;
+  font-size: 20px;
+}

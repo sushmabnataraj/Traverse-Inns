@@ -1,0 +1,174 @@
+section.secBanner /* Banner Section*/
+{
+    width: auto;
+    vertical-align: middle;
+    border-top: 1px solid #ffffff;
+}
+
+.bannerTxt
+{
+    position: absolute;
+    bottom:240px;
+    color: white;
+    padding-left: 160px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float:left;
+    width: 480px;
+}
+
+div.bnrMainTxt
+{
+    font-size: 36px;
+    margin:2px 0px;
+    color:#ffae00;
+}
+
+p.bnrSmlTxt
+{
+    font-size: 17px;
+    margin: 10px 0px;
+    color: black;
+    position: static;
+}
+
+a.git /* Get in touch with us button style*/
+{
+    float:left;
+    background-color: #ffae00;
+    color:#ffffff;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 15px;
+    display:inline;
+    margin:20px -2px;
+    border: 1px solid#ffc74d;
+}
+
+
+a.git:hover
+{
+    
+    background-color: #cc8b00;
+    color:#ffc74d;
+    border: 1px solid#ffc74d;
+}
+
+
+
+.slider{
+
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 2%;
+    margin-top: 2%;
+    
+}
+
+.filters{
+    width:46%;
+    
+}
+
+.interestsList{
+    width: 64%;
+}
+
+.butFilt{
+    min-width: 120px;
+    min-height: 74px;
+    margin-right: 20px;    
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butFilt:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffae00;
+  }
+
+.filterIcon{
+
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+
+
+
+.abiWarpper{
+    margin-top: 30px;
+    background-color: #fafafa;
+    padding:30px 0px;
+}
+
+.advByInt{
+
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.abiImages{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:20px 0px;
+    gap :30px;
+
+}
+
+.abiImg
+{
+    width:100%;
+    height:250px;
+    border-radius: 13px;
+}
+
+.abiCap
+{   
+    font-size: 25px;
+    color: #ffae00;
+    margin-top:25px;
+    text-align: left;
+    margin-left: 0.7%;
+    margin-bottom: 4%;
+}
+
+
+.abiCont{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;    
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 30px; 
+  }
+
+.showAll{
+    width:100%;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.downArr{
+    height: 10px;
+    width: 10px;
+}

@@ -1,0 +1,91 @@
+.preferenceBlock                                  
+{
+    margin-top: 40px;
+    background-color: #f3f1f1;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    height:auto;
+    margin-bottom: 5px;
+}
+.prefContent
+{
+    margin-top:2%;
+    margin-bottom:3%;
+}
+.prefTitle
+{
+    color:#ffae00;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+
+.preferenceTypes
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    text-align: center;
+    width:81%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.colSs 
+{
+    width: 280px;
+    text-align: left;
+    padding-bottom: 3%;
+    display: inline-block;
+    cursor: pointer;
+}
+.colEh
+{
+    width: 280px;
+    text-align: left;
+    padding-bottom: 3%;
+    display: inline-block;
+    cursor: pointer;
+}
+.colUs
+{
+    width: 280px;
+    text-align: left;
+    padding-bottom: 3%;
+    display: inline-block;
+    cursor: pointer;
+}
+.colPa
+{
+    width: 280px;
+    text-align: left;
+    padding-bottom: 3%;
+    display: inline-block;
+    cursor: pointer;
+}
+.colEh h2, .colSs h2, .colUs h2, .colPa h2
+{
+    color: #887345;
+    font-size:120%; 
+    padding: 15px 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.colEh p, .colSs p, .colUs p, .colPa p
+{
+    color: gray;
+    font-size:14px; 
+    line-height: 20px;
+    text-align:justify;
+    margin: 10px 0px;
+}
+
+.preferencesImage
+{
+    width: 100%;
+    border-radius: 10px;
+}
+

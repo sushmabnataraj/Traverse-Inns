@@ -1,0 +1,11 @@
+
+dist/
+
+# node modules #
+node_modules/
+
+# logs folder #
+logs/
+
+# Operating System generated files#
+.DS_Store

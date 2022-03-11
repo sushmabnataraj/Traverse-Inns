@@ -1,0 +1,36 @@
+.Navclass{
+    position :sticky;
+    background-color: rgb(197, 164, 54);
+    color:white;
+    font-weight: bold;
+    height:auto;
+    padding:20px;
+    display:flex;
+}
+.btnMenu{
+  position: absolute;
+  right:2px;
+}
+.btnstyle{
+    margin:8px 0px;
+}
+.paperstyle{
+    padding:20px;
+    height:500px;
+    width:350px;
+    margin:20px auto;
+}
+
+.avatarstyle{
+   background-color: green;
+}
+
+.menuroutes{
+    background-color: white;
+}
+
+
+.logoMain{
+   height: 50px;
+   width: auto;
+}
